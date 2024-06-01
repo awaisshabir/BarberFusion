@@ -1,0 +1,6 @@
+@BarberFusion.WebAPI_HostAddress = http://localhost:5005
+
+GET {{BarberFusion.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
