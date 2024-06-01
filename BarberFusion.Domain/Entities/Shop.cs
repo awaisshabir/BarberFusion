@@ -10,16 +10,16 @@ namespace BarberFusion.Domain.Entities
         public string PhoneNumber { get; set; } = string.Empty;
 
         [JsonIgnore]
-        public List<Customer> Customers { get; set; } = new();
+        public List<Customer> Customers { get; set; } 
         [JsonIgnore]
-        public List<Service> Services { get; set; } = new();
+        public List<Service> Services { get; set; }
         [JsonIgnore]
-        public List<Appointment> Appointments { get; set; } = new();
+        public List<Appointment> Appointments { get; set; }
         [JsonIgnore]
-        public List<Invoice> Invoices { get; set; } = new();
+        public List<Invoice> Invoices { get; set; } 
         [JsonIgnore]
-        public List<User> Users { get; set; } = new();
+        public List<User> Users { get; set; } 
         [JsonIgnore]
-        public List<Role> Roles { get; set; } = new();
+        public List<Role> Roles { get; set; } 
     }
 }
